@@ -1,0 +1,36 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate"              : 115200,
+            "target.features_remove"                : ["LWIP"],
+            "target.device_has_remove"              : ["EMAC"],
+            "target.network-default-interface-type" : null
+        },
+        "NUMAKER_PFM_M2351": {
+            "target.mbed_rom_start"             : "0x10020000",
+            "target.mbed_rom_size"              : "0x60000",
+            "target.mbed_ram_start"             : "0x30006000",
+            "target.mbed_ram_size"              : "0x12000"
+        },
+        "NUMAKER_PFM_M2351_NOPSA_NS": {
+            "target.extra_labels_remove"        : ["NU_PREBUILD_SECURE"],
+
+            "target.mbed_rom_start"             : "0x10020000",
+            "target.mbed_rom_size"              : "0x60000",
+            "target.mbed_ram_start"             : "0x30006000",
+            "target.mbed_ram_size"              : "0x12000"
+        },
+        "NUMAKER_PFM_M2351_NS": {
+            "target.extra_labels_remove"        : ["NU_PREBUILD_SECURE"],
+
+            "target.secure-rom-start"           : "0x0",
+            "target.secure-rom-size"            : "0x50000",
+            "target.secure-ram-start"           : "0x20000000",
+            "target.secure-ram-size"            : "0x10000",
+            "target.non-secure-rom-start"       : "0x10050000",
+            "target.non-secure-rom-size"        : "0x30000",
+            "target.non-secure-ram-start"       : "0x30010000",
+            "target.non-secure-ram-size"        : "0x8000"
+        }
+    }
+}
