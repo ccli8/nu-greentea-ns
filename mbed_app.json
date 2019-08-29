@@ -12,7 +12,7 @@
             "target.mbed_ram_start"             : "0x30006000",
             "target.mbed_ram_size"              : "0x12000"
         },
-        "NUMAKER_PFM_M2351_NOPSA_NS": {
+        "NU_PFM_M2351_NP_NS": {
             "target.extra_labels_remove"        : ["NU_PREBUILD_SECURE"],
 
             "target.mbed_rom_start"             : "0x10020000",
@@ -20,7 +20,7 @@
             "target.mbed_ram_start"             : "0x30006000",
             "target.mbed_ram_size"              : "0x12000"
         },
-        "NUMAKER_PFM_M2351_NS": {
+        "NU_PFM_M2351_P_NS": {
             "target.extra_labels_remove"        : ["NU_PREBUILD_SECURE"],
 
             "target.secure-rom-start"           : "0x0",
