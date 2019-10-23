@@ -3,7 +3,8 @@
 TEST_LIST="\
 mbed-os-tests-mbed_drivers-flashiap*,\
 mbed-os-tests-mbed_hal-flash*,\
-mbed-os-features-nvstore-tests-nvstore-functionality\
+mbed-os-features-storage-nvstore*,\
+mbed-os-features-device_key*\
 "
 
 # Secure ARMC6/Non-secure ARMC6 toolchain
