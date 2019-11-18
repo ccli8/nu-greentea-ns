@@ -15,9 +15,4 @@ mbed-os/features/netsocket/emac-drivers/*
 mbed-os/features/lorawan/*
 mbed-os/features/netsocket/NetworkInterfaceDefaults.cpp
 mbed-os/components/802.15.4_RF/*
-mbed-os/components/storage/blockdevice/COMPONENT_DATAFLASH/*
-mbed-os/components/storage/blockdevice/COMPONENT_QSPIF/*
-mbed-os/components/storage/blockdevice/COMPONENT_RSPIF/*
-mbed-os/components/storage/blockdevice/COMPONENT_SD/*
-mbed-os/components/storage/blockdevice/COMPONENT_SPIF/*
 mbed-os/components/wifi/*
