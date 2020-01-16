@@ -21,3 +21,12 @@ mbed test -m NU_PFM_M2351_NPSA_NS -t GCC_ARM \
 --app-config mbed_app_fpga-ci_prebuild.json \
 -n $TEST_LIST \
 > m2351-nopsa-fpga-ci_armc6-s_gcc-ns_prebuild.log
+
+# Secure ARMC6/Non-secure IAR toolchain
+rm -rdf BUILD
+rm -rdf SECURE_IMAGE_STAGE
+mkdir -p SECURE_IMAGE_STAGE
+mbed test -m NU_PFM_M2351_NPSA_NS -t IAR \
+--app-config mbed_app_fpga-ci_prebuild.json \
+-n $TEST_LIST \
+> m2351-nopsa-fpga-ci_armc6-s_iar-ns_prebuild.log

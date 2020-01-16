@@ -45,3 +45,17 @@ rm -rdf SECURE_IMAGE_STAGE
 mkdir -p SECURE_IMAGE_STAGE
 cp TARGET_IGNORE/NU_PFM_M2351_S/GCC_ARM-DEVELOP/tfm/* SECURE_IMAGE_STAGE
 mbed test -m NU_PFM_M2351_NS -t GCC_ARM -n $TEST_LIST > m2351-psa_gcc-s_gcc-ns_timer.log
+
+# Secure IAR/Non-secure ARMC6 toolchain
+rm -rdf BUILD
+rm -rdf SECURE_IMAGE_STAGE
+mkdir -p SECURE_IMAGE_STAGE
+cp TARGET_IGNORE/NU_PFM_M2351_S/IAR-DEVELOP/tfm/* SECURE_IMAGE_STAGE
+mbed test -m NU_PFM_M2351_NS -t ARMC6 -n $TEST_LIST > m2351-psa_iar-s_armc6-ns_timer.log
+
+# Secure IAR/Non-secure IAR toolchain
+rm -rdf BUILD
+rm -rdf SECURE_IMAGE_STAGE
+mkdir -p SECURE_IMAGE_STAGE
+cp TARGET_IGNORE/NU_PFM_M2351_S/IAR-DEVELOP/tfm/* SECURE_IMAGE_STAGE
+mbed test -m NU_PFM_M2351_NS -t IAR -n $TEST_LIST > m2351-psa_iar-s_iar-ns_timer.log
