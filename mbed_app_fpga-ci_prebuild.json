@@ -9,12 +9,6 @@
         "NUVOTON": {
             "target.supported_form_factors"         : ["ARDUINO"],
             "target.components_add"                 : ["FPGA_CI_TEST_SHIELD"]
-        },
-        "NUMAKER_PFM_M2351": {
-        },
-        "NU_PFM_M2351_NPSA_NS": {
-        },
-        "NU_PFM_M2351_NS": {
         }
     }
 }

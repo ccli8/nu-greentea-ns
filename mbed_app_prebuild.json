@@ -5,12 +5,6 @@
             "target.features_remove"                : ["LWIP"],
             "target.device_has_remove"              : ["EMAC"],
             "target.network-default-interface-type" : null
-        },
-        "NUMAKER_PFM_M2351": {
-        },
-        "NU_PFM_M2351_NPSA_NS": {
-        },
-        "NU_PFM_M2351_NS": {
         }
     }
 }
