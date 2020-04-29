@@ -4,7 +4,8 @@
             "platform.stdio-baud-rate"              : 115200,
             "target.features_remove"                : ["LWIP"],
             "target.device_has_remove"              : ["EMAC"],
-            "target.network-default-interface-type" : null
+            "target.network-default-interface-type" : null,
+            "storage_tdb_internal.internal_size"    : "0x2000"
         },
         "NUMAKER_PFM_M2351": {
             "target.mbed_rom_start"             : "0x10020000",
