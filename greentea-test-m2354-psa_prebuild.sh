@@ -1,11 +1,18 @@
 #!/bin/sh
 
 TEST_LIST="\
+mbed-os-drivers-device_key-tests*,\
+mbed-os-drivers-tests*,\
+mbed-os-events-tests*,\
 mbed-os-features-device_key*,\
 mbed-os-features-frameworks-utest*,\
 mbed-os-features-storage-nvstore*,\
 mbed-os-features-storage-tests*,\
 mbed-os-features-tests*,\
+mbed-os-hal-tests*,\
+mbed-os-platform-tests*,\
+mbed-os-rtos-tests*,\
+mbed-os-storage*,\
 mbed-os-tests-events*,\
 mbed-os-tests-integration*,\
 mbed-os-tests-mbed-crypto*,\

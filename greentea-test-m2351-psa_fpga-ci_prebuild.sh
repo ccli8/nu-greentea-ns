@@ -1,7 +1,9 @@
 #!/bin/sh
 
 TEST_LIST="\
-mbed-os-tests-mbed_hal_fpga_ci_test_shield*\
+mbed-os-tests-mbed_hal_fpga_ci_test_shield*,\
+mbed-os-tests-mbed_timing_fpga_ci_test_shield*,\
+mbed-os-hal-tests-tests-mbed_hal_fpga_ci_test_shield*\
 "
 
 # Secure ARMC6/Non-secure ARMC6 toolchain
