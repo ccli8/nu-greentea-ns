@@ -1,4 +1,3 @@
-mbed-os/targets/TARGET_NUVOTON/TARGET_M2351/TARGET_NUMAKER_PFM_M2351/TARGET_M23_NS/*
 mbed-os/features/cellular/*
 mbed-os/features/FEATURE_CLIENT/*
 mbed-os/features/FEATURE_UVISOR/*
